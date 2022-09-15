@@ -118,6 +118,9 @@ const start = () => {
 
       clearInterval(startCountdown);
       startTime = new Date().getTime();
+      //clear new start to fixed new start from 0
+      countdownOverlay.textContent = '';
+      //use display none to count down of. 
       countdownOverlay.style.display = "none"
     }
     count--;
