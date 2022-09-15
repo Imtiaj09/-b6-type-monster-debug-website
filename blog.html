@@ -30,8 +30,26 @@
             <div class="col">
               <div class="card border-primary">
                 <div class="card-body">
-                  <h4 class="card-title"></h4>
-                  <p class="card-text"></p>
+                  <h4 class="card-title">
+                    What is the difference between Local Storage and Session
+                    Storage?
+                  </h4>
+                  <p class="card-text">
+                    <span class="fw-semibold">LocalStorage</span> and
+                    <span class="fw-semibold">SessionStorage</span> are almost
+                    the same.The one major difference between localStorage and
+                    sessionStorage is the expiration date.<br />
+                    <br />
+                    <span class="fw-lighter">LocalStorage</span> persists the
+                    storage across browser sessions. So even if the domain is
+                    opened in a new tab, or the browser is closed and reopened,
+                    the storage is saved. There is no expiration.<br />
+                    <span class="fw-lighter">SessionStorage</span> is cleared
+                    when the page session ends. A page session lasts as long as
+                    the tab or the browser is open. Therefore, when you open a
+                    new tab or a new window, this creates a new session and new
+                    storage.
+                  </p>
                   <a href="#" class="btn btn-outline-primary btn-sm"
                     >Read More</a
                   >
@@ -41,8 +59,23 @@
             <div class="col">
               <div class="card border-primary">
                 <div class="card-body">
-                  <h4 class="card-title"></h4>
-                  <p class="card-text"></p>
+                  <h4 class="card-title">
+                    What is the difference between global scope and block scope?
+                  </h4>
+                  <p class="card-text">
+                    The <span class="fw-lighter">global scope</span> is the
+                    context where everything in a Javascript program executes by
+                    default. This scope includes all variables, objects, and
+                    references that are not contained within a customized scope
+                    defined by a programmer. Global scope is the entire
+                    Javascript execution environment.<br />
+                    The <span class="fw-lighter">block scope</span> restricts a
+                    variable's access to the block in which it is declared. The
+                    var keyword assigns a function scope to the variable. Unlike
+                    the var keyword, the let keyword allows the script to
+                    restrict access to the variable to the nearest enclosing
+                    block.
+                  </p>
                   <a href="#" class="btn btn-outline-primary btn-sm"
                     >Read More</a
                   >
@@ -52,8 +85,17 @@
             <div class="col">
               <div class="card border-primary">
                 <div class="card-body">
-                  <h4 class="card-title"></h4>
-                  <p class="card-text"></p>
+                  <h4 class="card-title">
+                    How does the javascript event loop work?
+                  </h4>
+                  <p class="card-text">
+                    <span class="fw-lighter">Event loop</span> is an endless
+                    loop, which waits for tasks, executes them and then sleeps
+                    until it receives more tasks. The event loop executes tasks
+                    from the event queue only when the call stack is empty i.e.
+                    there is no ongoing task. The event loop allows us to use
+                    callbacks and promises.
+                  </p>
                   <a href="#" class="btn btn-outline-primary btn-sm"
                     >Read More</a
                   >
@@ -63,8 +105,26 @@
             <div class="col">
               <div class="card border-danger">
                 <div class="card-body">
-                  <h4 class="card-title"></h4>
-                  <p class="card-text"></p>
+                  <h4 class="card-title">
+                    Sometimes we get some undefined in javascript, now tell us
+                    how many undefined in javascript?
+                  </h4>
+                  <p class="card-text">
+                    The <span class="fw-semibold">undefined</span> property
+                    indicates that a variable has not been assigned a value, or
+                    not declared at all.<br />
+                    <span class="fw-semibold">8 Ways to get Undefined</span>
+                    1. A declared variable without assigning any value to it.<br />
+                    2. Implicit returns of functions due to missing return
+                    statements.<br />
+                    3. return statements that do not explicitly return
+                    anything.<br />
+                    4. Lookups of non-existent properties in an object.<br />
+                    5. Function parameters that have not passed.<br />
+                    6. Anything that has been set to the value of undefined.<br />
+                    7. Any expression in the form of void.(expression)<br />
+                    8. The value of the global variable undefined.<br />
+                  </p>
                   <a href="#" class="btn btn-outline-primary btn-sm"
                     >Read More</a
                   >
