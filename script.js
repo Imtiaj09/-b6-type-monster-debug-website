@@ -118,6 +118,7 @@ const start = () => {
 
       clearInterval(startCountdown);
       startTime = new Date().getTime();
+      countdownOverlay.style.display = "none"
     }
     count--;
   }, 1000);
